@@ -55,6 +55,7 @@ button:hover {
 .form,
 .gretting {
   display: none;
+  color: #8e44ad;
 }
 
 .js-form-input {
@@ -67,6 +68,15 @@ button:hover {
   background-color: #3498db;
   border: 1px solid #2980b9;
   border-radius: 20px;
+}
+
+.js-form-input::placeholder {
+  color: white;
+  transition-duration: 0.4s;
+}
+
+.js-form-input:hover::placeholder {
+  color: #2980b9;
 }
 
 .js-form-input:focus {
